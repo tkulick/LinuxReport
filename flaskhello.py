@@ -37,6 +37,11 @@ EXPIRE_YEARS = 60 * 60 * 24 * 365 * 2
 
 g_app.config['SEND_FILE_MAX_AGE_DEFAULT'] = EXPIRE_DAYS
 
+# Add in top sites from Feedly
+# Hacker News, the Verge, AppleInsider, Electrek, Teslarati, Macrumors, Dark Reading, 
+# Daring Fireball, Technical.ly Philly, Plex Blog, The Hacker News, Aha! Blog
+# O365 Blog, WSJ CIO Journal
+
 site_urls = { "http://lxer.com/module/newswire/headlines.rss" : 
              ["http://keithcu.com/images/lxer.webp",
               "http://lxer.com/",
